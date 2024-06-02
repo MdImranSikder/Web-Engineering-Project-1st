@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+
+ /*  */
+        
+ th{
+             border: 1px solid rgb(171, 213, 239);
+             /* background-color: blueviolet; */
+        }
+        .fblogo{
+             border-radius: 50%;
+             height: 60px ;
+             width: 80px;
+             }
+
+        .hdinput{
+            background-color: aqua;
+        }
+
+        .table1{
+            width: 100%;
+            height: 60px;
+            background-color: #BBE7FE;
+        }
+
+        .table2{
+            
+            width: 100%;
+            height: 60px;
+            background-color:#EEB5EB;
+        }
+
+       .table2 th{
+            width: 16.5%;
+        }
+
+        /*  */
+
+
+
+
+        body{
+            background-color: #BDC3CB;
+        }
+        .div{
+            background-color: #EDE7DC;
+            /* width: 25%; */
+            height: 1000px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div style="position: -webkit-sticky; position: sticky;">
+        <div >
+            <table class="table1">
+                <th style="width: 20%;" > <img src="fb.png" alt="" class="fblogo" ></th>
+                <th style="width: 50%; color: rgb(44, 121, 48);"><h1>My Website</h1></th>
+                <th style="width: 30%;">Sunday,03 June,2024 <br> <input class="hdinput" type="text" placeholder="Search Here"></th>
+            </table>
+        </div>
+        <div>
+            <table class="table2" >
+                <tr class="th">
+                <th><a href="index.html"> Home</a></th>
+                <th><a href="form.html">Form</a></th>
+                <th><a href="table.html">Table</a></th>
+                <th><a href="Newsportal.html">NewsPortal</a></th>
+                <th><a href="Image.html">Image</a></th>
+                <th><a href="Contact  .html">Contact</a></th>
+                </tr>
+            </table>
+        </div>
+    
+
+
+
+
+
+
+
+    <div class="div" style="text-align: center;">
+     <h1 style=" text-align: center;">Registration form</h1>
+      <p >First Name : <input type="text" placeholder="Enter Your  first Name" ></p>
+      <p>Last Name : <input type="text" placeholder="Enter Your Last Name"></p> 
+      <p>E-mail : <input type="text" placeholder="Enter Your E-mail"></p>
+      <p>Password : <input type="text" placeholder="Enter Your Password"></p>
+       <p>Gender : <input type="radio" name="gender" value="Male"> Male <input type="radio" name="gender" value="female" > Female <input type="radio" name="gender" value="others"> others</p>
+       <p>Division : <select> <option value="Division"> Dhaka
+       </option> <option value="Division"> Barishal</option> <option value="Division">Khulna</option> <option value="Division"> Chittagong</option> <option value="Division">Syhelet</option> <option value="Division"> Rajshahi</option> <option value="Division"> Raungpur</option> <option value="Division">Mymaungshi</option> <option value="Division"> Comilla</option></select></p>
+       <input type="submit" value=" Submit">
+       
+    </div>
+</body>
+</html>
